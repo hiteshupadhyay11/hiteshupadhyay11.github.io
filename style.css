@@ -1,0 +1,95 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #000;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Header */
+header {
+  height: 60vh;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+header .intro h1 span {
+  color: #00aaff;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+.cert-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.cert-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: #fff;
+}
+.skills-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.skills-list li {
+  background: #00aaff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact-links a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
